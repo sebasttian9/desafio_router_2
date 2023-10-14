@@ -1,0 +1,30 @@
+.active {
+  color: red;
+  text-decoration: none;
+  }
+  
+  .pending{
+    text-decoration: none;
+    color: gray;
+  }
+
+  .navbar-nav {
+    gap: 1rem;
+  }
+
+  .containerHome  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .titulo {
+    font-size: xx-large;
+    font-weight: bold;
+
+  }
+
+  .selectPoke{
+    width: 50rem;
+  }
