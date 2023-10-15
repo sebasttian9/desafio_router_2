@@ -51,8 +51,8 @@ const InfoPersonaje = () => {
                 <ListGroup.Item>Experiencia : {informacionPoke?.base_experience}</ListGroup.Item>
                 <ListGroup.Item>Altura : {informacionPoke?.height * 10} cm</ListGroup.Item>
                 <ListGroup.Item>Peso : {informacionPoke?.weight * 0.1} kg</ListGroup.Item>
-                {/* <ListGroup.Item>Tipo: { informacionPoke.types[0].type.name ? informacionPoke.types[0].type.name : 'No informado' }</ListGroup.Item>*/}
-                {/* <ListGroup.Item>Tipo: { console.log(informacionPoke.types[0].type)}</ListGroup.Item> */}
+                <ListGroup.Item>Tipo: { informacionPoke.types ? informacionPoke.types[0].type.name : 'No informado' }</ListGroup.Item>
+                {/* <ListGroup.Item>Tipo: { console.log(informacionPoke.types)}</ListGroup.Item> */}
                 </ListGroup>
                 </div>
                 
