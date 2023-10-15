@@ -42,7 +42,7 @@ useEffect(() => {
 
   return (
     <div className="container containerHome">
-        <section className="titulo mt-4">Selecciona un pokemon! {name}</section>
+        <section className="titulo mt-4">Selecciona un pokemon!</section>
         <Form.Select size="lg" className="selectPoke mt-5" onChange={({target})=> setName(target.value)}>
             <option value={0}>(Seleccione)</option>
             {

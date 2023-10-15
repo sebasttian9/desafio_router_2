@@ -28,3 +28,10 @@
   .selectPoke{
     width: 50rem;
   }
+
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+  }
